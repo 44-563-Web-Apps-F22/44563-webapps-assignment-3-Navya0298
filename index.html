@@ -61,5 +61,29 @@
 </table>
 <hr>
 
+<hr>
+<h3>new section for block quote</h3>
+<h4>code display section</h4>
+
+
+<blockquote cite="https://stackoverflow.com/questions/14525373/choosing-font-size-on-a-text-path">Choosing font size on a text path</blockquote>
+
+<a href="https://stackoverflow.com/questions/14525373/choosing-font-size-on-a-text-path">click link to source</a>
+
+<pre>
+ var fontSize = 19;
+var titleText = new Kinetic.Text({
+    text: title,
+    fontSize: fontSize ,
+    fontFamily: 'Calibri',
+    fill: 'white',
+    rotationDeg: rotation
+});
+
+
+while (titleText.getWidth() > availableSpace)
+    titleText.setFontSize(--fontSize);
+</pre>
+
 </body>
 </html>
